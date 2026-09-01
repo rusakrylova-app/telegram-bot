@@ -1,0 +1,19 @@
+{
+  "name": "telegram-cbt-bot",
+  "version": "1.0.0",
+  "description": "КПТ бот для Telegram",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^1.20.0",
+    "dotenv": "^16.3.1",
+    "grammy": "^1.20.0",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
